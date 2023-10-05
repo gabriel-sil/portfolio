@@ -1,0 +1,203 @@
+.introduction-experiencie-bg {
+  background-color: var(--cor-1);
+  color: var(--cor-5);
+
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  border-bottom: .8px solid var(--cor-4);
+}
+
+.decoration-experiencie {
+  border-right: .8px solid var(--cor-4);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.decoration-experiencie-seta {
+  text-align: center;
+  padding: 40px 0;
+  border-top: .8px solid var(--cor-4);
+  font-size: 34px;
+  font-weight: 700;
+}
+
+.introduction-experiencie {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  margin: 0 auto;
+  padding: 80px 0 120px 0;
+}
+
+.introduction-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.introduction-content p:not(:last-child) {
+  background-color: #282733;
+  width: max-content;
+  padding: 15px 30px;
+  margin-bottom: 60px;
+}
+
+.introduction-content h1 {
+  max-width: 16ch;
+  margin-bottom: 30px;
+}
+
+@media(max-width: 800px) {
+  .decoration-experiencie {
+    display: none;
+  }
+  .introduction-experiencie-bg {
+    grid-template-columns: 1fr;
+  }
+  .introduction-experiencie {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    margin: 0 auto;
+    padding: 80px 40px 120px 40px;
+  }
+}
+
+/* CONTEUDO */
+.experience-bg {
+  color: var(--cor-5);
+  background-color: var(--cor-2);
+padding-bottom: 120px;
+}
+
+.experiencie-content {
+  display: grid;
+  grid-template-columns: auto .5fr 1fr;
+  padding-top: 80px;
+  align-items: center;
+}
+.experiencie-job {
+  border: .8px solid var(--cor-4);
+  width: max-content;
+  padding: 20px 30px;
+  border-radius: 16px;
+  position: relative;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.experiencie-job img{
+  max-width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: -55px;
+  background-color: var(--cor-2);
+  padding: 10px;
+  border: 1px solid var(--cor-4);
+}
+
+.experiencie-job h2 {
+  margin-top: 40px;
+}
+
+.experiencie-job p:not(:last-child) {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+/* */
+.experiencie-decoration div {
+  position: relative;
+}
+.experiencie-decoration div::after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: var(--cor-5);
+  left: 0;
+}
+
+/* */
+.experiencie-description {
+  margin-right: 80px;
+}
+.experiencie-description  {
+  padding: 20px 30px;
+  border: .8px solid var(--cor-4);
+  border-radius: 14px;
+}
+
+.experiencie-description p {
+  line-height: 20px;
+}
+
+.job-amazon img {
+  max-width: 140px;
+  top: -30px;
+}
+
+.list-experiencie-description {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.list-experiencie-description li {
+ position: relative;
+}
+
+.list-experiencie-description li::after {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: var(--cor-1);
+  display: block;
+  top: 1px;
+  left: -20px;
+}
+
+@media (max-width: 1100px) {
+  .experiencie-content {
+    grid-template-columns: auto .1fr 1fr;
+  }
+}
+
+@media (max-width: 930px) {
+  .experiencie-content {
+    grid-template-columns: auto;
+    gap: 40px;
+  }
+  .experiencie-decoration div::after {
+    height: 80px;
+    width: 2px;
+    left: 50%;
+    top: -40px;
+  }
+ /* */
+.experiencie-description {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+}
+
+@media (max-width: 600px) {
+  .experiencie-job {
+    max-width: 300px;
+    margin-left: 0;
+  }
+}
+@media (max-width: 400px) {
+  .experiencie-job {
+    max-width: 260px;
+  }
+@media (max-width: 350px) {
+  .experiencie-job {
+    max-width: 230px;
+  }
+}
+}

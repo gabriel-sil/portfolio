@@ -1,0 +1,16 @@
+#habilidades-page .project-introduction-bg {
+  background-color: var(--cor-2);
+}
+#habilidades-page .project-introduction-content span{
+  background-color: #ffffff29;
+}
+
+#habilidades-page .skills-home {
+  background-color: var(--cor-1);
+  color: var(--cor-5);
+  padding-top: 80px;
+}
+
+body {
+  overflow-x: hidden;
+}

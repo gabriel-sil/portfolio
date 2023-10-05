@@ -1,0 +1,29 @@
+
+@import url(css/reset/reset.css);
+@import url(css/global/global.css);
+@import url(css/fonts/fonts.css);
+
+/* home */
+@import url(css/home/introduction.css);
+@import url(css/home/about-home.css);
+@import url(css/home/job.css);
+@import url(css/home/experience.css);
+@import url(css/home/education.css);
+@import url(css/home/skills.css);
+
+/* about */
+@import url(css/about/about.css);
+
+/* experiencia */
+@import url(./css/experiencia/experiencia.css);
+
+/* projetos */
+@import url(./css/projetos/projetos.css);
+
+/* contato */
+@import url(./css/contato/contato.css);
+
+/* contato */
+@import url(./css/skills/skills.css);
+
+

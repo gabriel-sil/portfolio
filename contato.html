@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--fONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--Compartilhamento-->
+  <meta property="og:title" content="desenvovedor Front End, UX/UI Designer - Tecnologia da informação">
+  <meta property="og:description" content="programador front-end apaixonado por criar experiências web com usabilidade. Minha abordagem é orientada para resultados, colaborativa e constantemente atualizada com as mais recentes tendências tecnológicas. Sou comprometido, colaborativo e trago um olhar de inovação para cada projeto.">
+  <meta property="og:image" content="https://media.licdn.com/dms/image/D4D03AQE4JAYpU9os3A/profile-displayphoto-shrink_400_400/0/1675804459247?e=1701907200&v=beta&t=ThZ9oV1Smywmjc1wWzMGYEpsnxhHS99EjcFr75aHqRU">
+  <meta property="og:url" content="https:gaoliveira.dev">
+  <meta property="og:type" content="website"> <!-- Tipo de conteúdo, geralmente é "website" -->
+  <!---->
+
+  <!--CSS-->
+  <link rel="shortcut icon" href="./img/icons/logo-pintada.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="header.css" type="text/css">
+  <link rel="stylesheet" href="footer.css" type="text/css">
+
+  <!--ICONS-->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <title>Contato - Entre em contato com Gabriel Oliveira - Desenvovedor Front End, UX/UI Designer - Tecnologia da informação</title>
+</head>
+
+<body data-barba="wrapper" id="page-contato">
+  <div class="load-container">
+    <div class="loading-screen"></div>
+  </div>
+
+  <header class="header-bg">
+    <div class="header-grid-bg">
+      <div class="header-grid-1">
+        <a href="./index.html" class="header-logo">
+          <img src="./img/icons/logo.png" alt="Logo">
+        </a>
+        <div class="header-social-media">
+          <a href="https://github.com/gabriel-sil" target="_blank"><i class="ph ph-github-logo"></i></a>
+          <a href="https://www.linkedin.com/in/gabriel1512/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+          <a href="https://www.instagram.com/gabriel_oliveira10/" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+          <a href="mailto:gabrielsilva2@outlook.pt" target="_blank"><i class="ph ph-envelope"></i></a>
+        </div>
+      </div>
+      <div class="header-grid-2 bold-500 font-p-2">
+        <button class="button-linguage-header">
+          <img src="./img/icons/brasil.png" alt="">
+          <p>PT</p>
+        </button> /
+        <button title="function is currently disabled" class="button-linguage-header">
+          <img src="./img/icons/eua.png" alt="">
+          <p>EN</p>
+        </button>
+        <p class="font-p-1 navegue-header">NAVEGUE</p>
+      </div>
+    </div>
+    <div id="header-nav">
+      <nav class="list-navigation-bg">
+        <ul class="list-navigation font-t-7">
+          <div>
+            <p class="navigation-text bold-500">Navegue aqui ></p>
+          </div>
+          <div class="bold-500 navegacao-primaria">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">O Gabriel</a></li>
+            <li><a href="./experiencia.html">Experiência</a></li>
+            <li><a href="./projetos.html">Projetos</a></li>
+            <li><a href="./habilidade.html">Habilidades</a></li>
+            <li class="active"><a href="./contato.html">Contato</a></li>
+          </div>
+        </ul>
+        <div class="header-gabriel-bg font-p-2">
+          <a href="">Entre em contato</a>
+          <div class="header-gabriel">
+            <img src="./img/image-site/perfil.jpg" alt="">
+            <p>Olá, sou o gabriel e<br> estou aguardando o <br>seu contato</p>
+          </div>
+        </div>
+      </nav>
+      <div class="hamburger-menu" onclick="toggleMenu()">&#9776;</div>
+    </div>
+  </header>
+
+  <div data-barba="container" data-barba-namespace="home-section">
+    <section class="contato-bg">
+      <div class="contato">
+        <div class="contato-content">
+          <div class="text-introduction-contato container-left">
+            <h1 class="font-t-7 bold-700">Estou Aqui para Ouvir Você!</h1>
+            <p class="font-p-3">Muito obrigado por estar aqui, mande sua mensagem e vamos iniciar uma conversa.</p>
+          </div>
+          <div class="seta-contato">
+            <img src="https://insany.design/wp-content/themes/theme_insany_design/img/arrow-contato.svg" alt="">
+          </div>
+        </div>
+        <div class="contato-content ">
+          <div class="contact-footer-form container-left">
+            <h2 class="font-t-5 bold-700">Contato rápido</h2>
+            <form action="https://formsubmit.co/gabrielsilva2@outlook.pt" method="POST" enctype=multipart/form-data class="form-footer" action="#" method="post">
+              <div class="form-group">
+                <label for="nome" class="font-t-2">Nome *</label>
+                <input type="text" id="nome" name="nome" required>
+              </div>
+              <div class="form-group">
+                <label for="email" class="font-t-2">Email *</label>
+                <input type="email" id="email" name="email" required>
+              </div>
+              <div class="form-group">
+                <label for="mensagem" class="font-t-2">Mensagem *</label>
+                <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                <input type="file" name="attachment" accept="image/png, image/jpeg">
+              </div>
+              <div class="form-group">
+                <input type="submit" value="Enviar">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_next" value="http://127.0.0.1:3004/form.html">
+              </div>
+            </form>
+          </div>
+          <div class="list-abouContato">
+            <img src="https://insany.design/wp-content/themes/theme_insany_design/img/asterisco.svg" alt="">
+            <h2 class="font-t-3 bold-700">O que você deve saber antes de entrar em contato</h2>
+            <ol class="list-Contatoabou font-p-2 bold-500">
+              <li>Estou muito feliz mesmo que você chegou até aqui.</li>
+              <li>Não se preocupe, irei responder você.</li>
+              <li>Respondo você em até 1 dia.</li>
+              <li>Sua opinião é importante para mim, deixe sua mensagem!</li>
+              <li>Deixe-me saber como posso ajudar você.</li>
+            </ol>
+          </div>
+        </div>
+        <div class="contato-content decoration-contat">
+          <div></div>
+          <div class="line-contato1 bg-gradiente"></div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <script src="./js/main.js"></script>
+  <!---->
+  <script src="./js/header.js"></script>
+  <script src="./js/education.js"></script>
+</body>
+
+</html>

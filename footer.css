@@ -1,0 +1,156 @@
+.footer-bg {
+  background-color: var(--cor-1);
+  color: var(--cor-5);
+  padding-top: 80px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* column1*/
+.footer-content1 {
+display: flex;
+flex-wrap: wrap;
+flex-basis: 600px;
+  justify-content: space-around;
+  border-bottom: .8px solid #ffffff0f;
+}
+
+.footer-description-gabriel h1{
+  max-width: 20ch;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+.footer-description-gabriel p{
+  max-width: 50ch;
+  margin-bottom: 40px;
+}
+
+/* column2 LINKS */
+.list-links-footer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.list-links-footer li {
+  position: relative;
+}
+.list-links-footer li::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 4px;
+  background-color: var(--cor-3);
+  left: -18px;
+  top: 12px;
+}
+
+/* columns3 FORM */
+.form-footer {
+  margin-top: 40px;
+}
+.contact-footer-form label {
+  display: block;
+}
+.contact-footer-form input[type="text"],
+.contact-footer-form input[type="email"],
+.contact-footer-form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 8px;
+  background: none;
+  color: var(--cor-5);
+  border: .8px solid var(--cor-4);
+  border-bottom: 1px solid var(--cor-5);
+}
+.contact-footer-form input[type="text"]:hover,
+.contact-footer-form input[type="email"]:hover,
+.contact-footer-form textarea:hover {
+  background-color: rgba(240, 248, 255, 0.125);
+}
+
+.contact-footer-form textarea {
+  resize: vertical;
+}
+
+.contact-footer-form input[type="submit"] {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: var(--cor-3);
+  color: var(--cor-5);
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-footer-form input[type="submit"]:hover {
+  background-color: #f9308a;
+}
+
+.contact-footer-form input:valid, textarea:valid {
+  border-color: green;
+}
+
+.footer-content2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  flex-wrap: wrap;
+}
+.footer-content2 ul{
+  display: flex;
+  gap: 20px;
+}
+
+.footer-links {
+  flex-basis: 300px;
+}
+
+.contact-footer-form {
+  flex-basis: 300px; 
+}
+
+
+#btnScrollToTop {
+  background-color: #007bff;
+  color: #fff; /* Cor do texto do botão */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#btnScrollToTop:hover {
+  background-color: #0056b3;
+}
+
+@media(max-width: 700px) {
+  .footer-links {
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .contact-footer-form input[type="text"],
+  .contact-footer-form input[type="email"],
+  .contact-footer-form textarea {
+  width: 100%;
+}
+
+.footer-content2 {
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+  flex-wrap: wrap;
+  gap: 60px;
+}
+  .contact-footer-form input[type="text"],
+  .contact-footer-form input[type="email"],
+  .contact-footer-form textarea {
+    width: 80%;
+    }
+}
+
+

@@ -1,0 +1,108 @@
+:root {
+  --cor-1: #040405;
+  --cor-2: #524BF2;
+  --cor-3: #FF0074;
+  --cor-4: #ffffff55;
+  --cor-5: #ffffff;
+
+}
+
+.bg-gradiente {
+  background: linear-gradient(to right, #F20C8B, #D91193, #BF21B5, #8630BF, #7C3BD9);
+}
+
+.font-t-1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+.font-t-2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.font-t-3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+}
+.font-t-4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+.font-t-5 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+.font-t-6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 28px;
+}
+.font-t-6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+}
+.font-t-6 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+}
+.font-t-7 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 46px;
+}
+
+@media(max-width: 350px) {
+  .font-t-7 {
+    font-size: 36px;
+  }
+}
+
+/* */
+.font-p-1 {
+font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+.font-p-2 {
+font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+.font-p-3 {
+font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+}
+.font-p-4 {
+font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+}
+.font-p-5 {
+font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+}
+.font-p-6 {
+font-family: 'Poppins', sans-serif;
+  font-size: 28px;
+}
+.font-p-6 {
+font-family: 'Poppins', sans-serif;
+  font-size: 32px;
+}
+.font-p-6 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 36px;
+}
+
+.bold-400 {
+font-weight: 400;
+}
+.bold-500 {
+  font-weight: 500;
+}
+.bold-600 {
+  font-weight: 600;
+}
+.bold-700 {
+  font-weight: 700;
+}
+.bold-800 {
+  font-weight: 800;
+}
+.bold-900 {
+  font-weight: 900;
+}

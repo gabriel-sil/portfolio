@@ -1,0 +1,336 @@
+.about-me-introduction-bg {
+  background-color: var(--cor-3);
+  color: var(--cor-5);
+}
+.about-me-introduction-description {
+  padding-top: 120px;
+}
+
+.about-me-introduction-description p {
+  padding: 20px 30px;
+  margin-left: 60px;
+  background-color: #ffffff5b;
+  width: max-content;
+}
+
+.about-me-introduction-description h1 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  max-width: 18ch;
+}
+
+
+.about-me-introduction-description span {
+  display: block;
+  padding-bottom: 30px;
+  font-size: 28px;
+}
+
+.about-me-introduction-description div {
+background-image: linear-gradient(to right, #F20C8B, #D91193, #BF21B5, #8630BF, #7C3BD9);
+}
+
+
+ /* Decoração */
+.about-me-introduction-decoration {
+  display: grid;
+  grid-template-areas:
+  "introduction-decoration-1 introduction-decoration-2"
+  "introduction-decoration-3 introduction-decoration-4";
+}
+.introduction-decoration-1 {
+  grid-area: "introduction-decoration-1";
+}
+.introduction-decoration-2 {
+  grid-area: "introduction-decoration-2";
+  border-left: .1px solid #ffffff76;
+  border-bottom: .1px solid #ffffff76;
+  position: relative;
+}
+.introduction-decoration-2 p {
+  position: absolute;
+  right: 40px;
+  top: 40%;
+  text-align: end;
+}
+.introduction-decoration-3 {
+  grid-area: "introduction-decoration-3";
+  border-top: .1px solid #ffffff76;
+  border-left: .1px solid #ffffff76;
+}
+.introduction-decoration-4 {
+  grid-area: "introduction-decoration-4";
+  border-left: .1px solid #ffffff76;
+}
+
+.introduction-decoration-3 {
+  position: relative;
+  overflow: hidden;
+}
+
+.introduction-decoration-3 {
+  position: relative;
+  overflow: hidden;
+}
+
+.introduction-decoration-3::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(131deg, transparent 50%, #ffffff7e 50.5%, #ffffff59 50.5%, transparent 50.5%);
+}
+
+@media(max-width: 900px) {
+  .about-me-introduction-decoration {
+    display: none;
+  }
+  .about-me-introduction-description p {
+    margin-left: 20px;
+  }
+}
+
+/* Resumo */
+.about-me-resumo-bg {
+  background-color: var(--cor-1);
+  color: var(--cor-5);
+  border-bottom: .8px solid var(--cor-4);
+}
+.description-resumo {
+  padding-top: 80px;
+}
+.description-resumo h2{
+  margin-top: 40px;
+  max-width: 40ch;
+  line-height: 32px;
+}
+
+.text-resumo {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #17161E;
+}
+
+.photo-resumo {
+  border-left: .8px solid var(--cor-4);
+}
+
+@media(max-width: 890px) {
+  .photo-resumo {
+    margin-top: 40px;
+  }
+  .description-resumo h2 {
+    font-size: 18px;
+    line-height: 24px;
+    max-width: 100%;
+  }
+  .photo-resumo img {
+    width: 100%;
+  }
+}
+
+/* sticky sidebar content */
+
+/* VALUE*/
+
+.secion-value {
+ padding-bottom: 104px;
+}
+.sticky-sidebar-bg {
+  color: #ffffff;
+  background-color: var(--cor-1);
+  border-bottom: .8px solid var(--cor-4);
+}
+
+.sticky-sidebar-container {
+  display: grid;
+  grid-template-columns: 1fr 270px 270px;
+}
+
+.sticky-sidebar-content{
+  flex: 1;
+}
+
+.item-sidebar-column1 ul{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  padding-top: 60px;
+}
+
+.item-sidebar-column1 ul li{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.item-sidebar-column2 span{
+  display: block;
+  height: 80px;
+  background-color: #F20C8B;
+}
+
+.item {
+  margin-bottom: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+/* MUNDOS */
+.secion-mundo {
+  background-color: var(--cor-2);
+padding-top: 80px;
+padding-bottom: 56px;
+}
+
+.secion-mundo h3 {
+  margin-bottom: 5px;
+}
+
+.secion-mundo p {
+  max-width: 50ch;
+}
+
+/* PAIXÃO */
+.secion-paixao  {
+  padding-top: 80px;
+  padding-bottom: 72px;
+}
+.secion-paixao p {
+  line-height: 24px;
+  max-width: 60ch;
+}
+
+/* comeco */
+.secion-comeco  {
+  background-color: #17161E;
+  padding-top: 80px;
+  padding-bottom: 126px;
+}
+.secion-comeco p {
+  line-height: 24px;
+  max-width: 60ch;
+  margin-bottom: -38px;
+}
+
+/* COLUNA DO MEIO*/
+.coluna-meio {
+  border-left: .8px solid var(--cor-4);
+  display: grid;
+}
+
+.coluna-meio span {
+  min-height: 112.5px;
+}
+.coluna-meio span:nth-child(1) {
+  background-color: #FF0074;
+}
+.coluna-meio span:nth-child(2) {
+  background-color: #E60069;
+}
+.coluna-meio span:nth-child(3) {
+  background-color: #CD015E;
+}
+.coluna-meio span:nth-child(4) {
+  background-color: #B40152;
+}
+.coluna-meio span:nth-child(5) {
+  background-color: #9B0248;
+}
+.coluna-meio span:nth-child(6) {
+  background-color: #82023C;
+}
+.coluna-meio span:nth-child(7) {
+  background-color: #680231;
+}
+
+.coluna-meio span:nth-child(8) {
+  background-color: var(--cor-2);
+  border-left: 1px solid #ffffff62;
+}
+.coluna-meio span:nth-child(9) {
+  background-color: var(--cor-2);
+  border-left: 1px solid #ffffff62;
+}
+.coluna-meio span:nth-child(10) {
+  background-color: var(--cor-2);
+  border-left: 1px solid #ffffff62;
+}
+.coluna-meio span:nth-child(11) {
+  background-color: var(--cor-2);
+  border-left: 1px solid #ffffff62;
+}
+.coluna-meio span:nth-child(12) {
+  background-color: var(--cor-2);
+  border-left: 1px solid #ffffff62;
+}
+.coluna-meio span:nth-child(13) {
+  background-color: var(--cor-3);
+  border-left: 1px solid #ffffff62;
+
+}
+.coluna-meio span:nth-child(14) {
+  background-color: var(--cor-3);
+}
+.coluna-meio span:nth-child(15) {
+  background-color: var(--cor-3);
+}
+.coluna-meio span:nth-child(16) {
+  background-color: var(--cor-3);
+}
+.coluna-meio span:nth-child(17) {
+  background-color: #17161E;
+}
+.coluna-meio span:nth-child(18) {
+  background-color: #17161E;
+}
+.coluna-meio span:nth-child(19) {
+  background-color: #17161E;
+}
+.coluna-meio span:nth-child(20) {
+  background-color: #17161E;
+}
+.coluna-meio span:nth-child(21) {
+  background-color: #17161E;
+}
+.coluna-meio span:nth-child(22) {
+  background-color: #17161E;
+}
+
+/* NAVEGAÇÃO RIGHT */
+.sticky-sidebar-list {
+  flex: 0;
+}
+
+.list-sticky-sidebar {
+  position: sticky;
+  top: 0;
+  padding: 0 60px;
+  padding-top: 180px;
+}
+
+.list-sticky-sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.highlighted {
+  color: var(--cor-3);
+  text-decoration: underline;
+}
+
+@media(max-width: 900px) {
+  .sticky-sidebar-container {
+    grid-template-columns: 1fr;
+}
+  .coluna-meio, .sticky-sidebar-list {
+    display: none;
+  }
+  .secion-mundo p, .secion-paixao p, .secion-comeco p {
+    max-width: 100%;
+  }
+}

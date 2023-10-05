@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--fONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--Compartilhamento-->
+  <meta property="og:title" content="Desenvovedor Front End, UX/UI Designer - Tecnologia da informação">
+  <meta property="og:description" content="Programador front-end apaixonado por criar experiências web com usabilidade. Minha abordagem é orientada para resultados, colaborativa e constantemente atualizada com as mais recentes tendências tecnológicas. Sou comprometido, colaborativo e trago um olhar de inovação para cada projeto.">
+  <meta property="og:image" content="https://media.licdn.com/dms/image/D4D03AQE4JAYpU9os3A/profile-displayphoto-shrink_400_400/0/1675804459247?e=1701907200&v=beta&t=ThZ9oV1Smywmjc1wWzMGYEpsnxhHS99EjcFr75aHqRU">
+  <meta property="og:url" content="https:gaoliveira.dev">
+  <meta property="og:type" content="website"> <!-- Tipo de conteúdo, geralmente é "website" -->
+  <!---->
+
+  <!--CSS-->
+  <link rel="shortcut icon" href="./img/icons/logo-pintada.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="header.css" type="text/css">
+  <link rel="stylesheet" href="footer.css" type="text/css">
+
+  <!--ICONS-->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+
+  <title>Gabriel Oliveira - Desenvovedor Front End, UX/UI Designer - Tecnologia da informação </title>
+</head>
+
+<body data-barba="wrapper">
+  <div class="load-container">
+    <div class="loading-screen"></div>
+  </div>
+
+  <header class="header-bg">
+    <div class="header-grid-bg">
+      <div class="header-grid-1">
+        <a href="./index.html" class="header-logo">
+          <img src="./img/icons/logo.png" alt="Logo">
+        </a>
+        <div class="header-social-media">
+          <a href="https://github.com/gabriel-sil" target="_blank"><i class="ph ph-github-logo"></i></a>
+          <a href="https://www.linkedin.com/in/gabriel1512/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+          <a href="https://www.instagram.com/gabriel_oliveira10/" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+          <a href="mailto:gabrielsilva2@outlook.pt" target="_blank"><i class="ph ph-envelope"></i></a>
+        </div>
+      </div>
+      <div class="header-grid-2 bold-500 font-p-2">
+        <button class="button-linguage-header">
+          <img src="./img/icons/brasil.png" alt="">
+          <p>PT</p>
+        </button> /
+        <button title="function is currently disabled" class="button-linguage-header">
+          <img src="./img/icons/eua.png" alt="">
+          <p>EN</p>
+        </button>
+        <p class="font-p-1 navegue-header">NAVEGUE</p>
+      </div>
+    </div>
+    <div id="header-nav">
+      <nav class="list-navigation-bg">
+        <ul class="list-navigation font-t-7">
+          <div>
+            <p class="navigation-text bold-500">Navegue aqui ></p>
+          </div>
+          <div class="bold-500 navegacao-primaria">
+            <li class="active"><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">O Gabriel</a></li>
+            <li><a href="./experiencia.html">Experiência</a></li>
+            <li><a href="./projetos.html">Projetos</a></li>
+            <li><a href="./habilidade.html">Habilidades</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+          </div>
+        </ul>
+        <div class="header-gabriel-bg font-p-2">
+          <a href="./contato.html">Entre em contato</a>
+          <div class="header-gabriel">
+            <img src="./img/image-site/perfil.jpg" alt="">
+            <p>Olá, sou o gabriel e<br> estou aguardando o <br>seu contato</p>
+          </div>
+        </div>
+      </nav>
+      <div class="hamburger-menu" onclick="toggleMenu()">&#9776;</div>
+    </div>
+  </header>
+
+  <div data-barba="container" data-barba-namespace="home-section">
+    <main class="introduction">
+      <div class="standard-grid">
+        <div class="about-gabriel-introduction">
+          <p class="font-p-2">Bem vindo ao meu portifólio 🤘</p>
+          <h1 class="font-t-7 bold-600">Gabriel Oliveira <br> <span class="text-color">desenvovedor</span> Front End, UX/UI Designer - Tecnologia da informação</h1>
+          <p class="font-p-4"> SP/BRASIL</p>
+          <a href="./contato.html" class="link font-t-3">Conecte-te comigo <span id="arrow-right">➜</span></a>
+        </div>
+
+        <div class="decoration-introduction">
+          <div class="linha1">
+            <div class="linha1-1"></div>
+            <div class="linha1-2">
+              <div class="linha-1-2-1">
+                <span class="linha-1-2-2-1"></span>
+                <span class="linha-1-2-2-1"></span>
+                <span class="linha-1-2-2-1"></span>
+                <span class="linha-1-2-2-1"></span>
+              </div>
+              <div class="linha-1-2-2">
+                <span class="linha-1-2-2-2"></span>
+                <span class="linha-1-2-2-2"></span>
+                <span class="linha-1-2-2-2"></span>
+                <span class="linha-1-2-2-2"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="linha2 font-p-5">Criando <br>Experiências <br> Web <div class="ponto">...</div>
+          </div>
+
+          <div class="linha3 font-p-3">
+            <span>
+              <p>Veja meu CV </p>
+              <div>
+                <a href="./img/curriculo-gabrie-oliveira.pdf" download="curriculo-gabrie-oliveira.pdf" title="Clique para baixar currículo em PDF" class="link">baixar</a>
+                <a href="./img/curriculo-gabrie-oliveira.pdf" target="_blank" title="Clique visualizar currículo online" class="link">visualizar <br> rápido</a>
+              </div>
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <section id="about-home-bg">
+      <div class="about-home standard-grid">
+        <div class="about-gabriel">
+          <h1 class="font-t-7 container-left bold-600">Gabriel <br>Oliveira</h1>
+          <p class=" font-p-2">Tenho uma grande paixão por desenvolver interfaces incríveis e possuo vasto conhecimento em desenvolvimento de interfaces responsivo e acessibilidade. Já tive a oportunidade de automatizar processos em empresas renomadas Luft Solutions (cliente Amazon) e Full-fit, criando interfaces intuitivas e fáceis de usar. Atualmente, estou à procura de novos desafios e oportunidades para aprimorar minhas habilidades em projetos inovadores. Sinta-se à vontade para explorar os projetos e trabalhos abaixo.
+          </p>
+          <div class="gradiente-about bg-gradiente"></div>
+        </div>
+        <div class="about-job">
+          <p class="font-t-5">Deixe que meus <br> trabalhos fale <br>por mim</p>
+          <a href="./projetos.html" class="link-2 font-t-3">Ir para páginas de cases <span id="arrow-right-2">➜</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="job-home-bg">
+      <div class="job-home">
+        <div class="job-home-content container-left">
+          <span class="font-p-2 bold-700">01</span>
+          <div class="job-flex-title">
+            <!--ao invés dessa tag I é uma imagem-->
+            <i class="ph ph-github-logo"></i>
+            <h1 class="font-t-5 bold-600">Nome do Projeto</h1>
+          </div>
+          <div class="tags-job-bg">
+            <ul class="tags-job font-p-1 bold-500">
+              <li>design</li>
+              <li>front-een</li>
+              <li>wordpress</li>
+            </ul>
+          </div>
+          <h2 class="font-p-5 bold-700">Descrição curta do titulo (1 linha)</h2>
+          <p class="font-p-4">Breve descrição do projeto, falando sobre o projeto, posso pegar referencia no site da insany nesta parte de como eles fizeram a descrição (tem estratégia) lorem inpusim lorem </p>
+          <div class="files-job">
+            <a href="" title="Ser direcionado para o site do projeto"><i class="ph ph-link"></i></a>
+            <a href="" title="Ser direcionado para repositório GitHub"><i class="ph ph-github-logo"></i></a>
+            <a href="" title="Ser direcionado para projeto em Designer no figma (UX/UI)"><i class="ph ph-figma-logo"></i></a>
+            <a href="" title="Ser direcionado para o Artigo pubicado sobre este projeto - Feito por Gabriel"><i class="ph ph-article"></i></a>
+          </div>
+        </div>
+        <div class="job-home-photo-bg">
+          <div class="job-home-photo">
+            <img src="https://insany.design/wp-content/uploads/2021/08/unico-01.jpg" alt="">
+            <img class="overlay-image" src="https://insany.design/wp-content/uploads/2021/08/unico-02.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="job-home">
+        <div class="job-home-content container-left">
+          <span class="font-p-2 bold-700">01</span>
+          <div class="job-flex-title">
+            <!--ao invés dessa tag I é uma imagem-->
+            <i class="ph ph-github-logo"></i>
+            <h1 class="font-t-5 bold-600">Nome do Projeto</h1>
+          </div>
+          <div class="tags-job-bg">
+            <ul class="tags-job font-p-1 bold-500">
+              <li>design</li>
+              <li>front-een</li>
+              <li>wordpress</li>
+            </ul>
+          </div>
+          <h2 class="font-p-5 bold-700">Descrição curta do titulo (1 linha)</h2>
+          <p class="font-p-4">Breve descrição do projeto, falando sobre o projeto, posso pegar referencia no site da insany nesta parte de como eles fizeram a descrição (tem estratégia) lorem inpusim lorem </p>
+          <div class="files-job">
+            <a href="" title="Ser direcionado para o site do projeto"><i class="ph ph-link"></i></a>
+            <a href="" title="Ser direcionado para repositório GitHub"><i class="ph ph-github-logo"></i></a>
+            <a href="" title="Ser direcionado para projeto em Designer no figma (UX/UI)"><i class="ph ph-figma-logo"></i></a>
+            <a href="" title="Ser direcionado para o Artigo pubicado sobre este projeto - Feito por Gabriel"><i class="ph ph-article"></i></a>
+          </div>
+        </div>
+        <div class="job-home-photo-bg">
+          <div class="job-home-photo">
+            <img src="https://insany.design/wp-content/uploads/2021/08/unico-01.jpg" alt="">
+            <img class="overlay-image" src="https://insany.design/wp-content/uploads/2021/08/unico-02.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="job-home">
+        <div class="job-home-content container-left">
+          <span class="font-p-2 bold-700">01</span>
+          <div class="job-flex-title">
+            <!--ao invés dessa tag I é uma imagem-->
+            <i class="ph ph-github-logo"></i>
+            <h1 class="font-t-5 bold-600">Nome do Projeto</h1>
+          </div>
+          <div class="tags-job-bg">
+            <ul class="tags-job font-p-1 bold-500">
+              <li>design</li>
+              <li>front-een</li>
+              <li>wordpress</li>
+            </ul>
+          </div>
+          <h2 class="font-p-5 bold-700">Descrição curta do titulo (1 linha)</h2>
+          <p class="font-p-4">Breve descrição do projeto, falando sobre o projeto, posso pegar referencia no site da insany nesta parte de como eles fizeram a descrição (tem estratégia) lorem inpusim lorem </p>
+          <div class="files-job">
+            <a href="" title="Ser direcionado para o site do projeto"><i class="ph ph-link"></i></a>
+            <a href="" title="Ser direcionado para repositório GitHub"><i class="ph ph-github-logo"></i></a>
+            <a href="" title="Ser direcionado para projeto em Designer no figma (UX/UI)"><i class="ph ph-figma-logo"></i></a>
+            <a href="" title="Ser direcionado para o Artigo pubicado sobre este projeto - Feito por Gabriel"><i class="ph ph-article"></i></a>
+          </div>
+        </div>
+        <div class="job-home-photo-bg">
+          <div class="job-home-photo">
+            <img src="https://insany.design/wp-content/uploads/2021/08/unico-01.jpg" alt="">
+            <img class="overlay-image" src="https://insany.design/wp-content/uploads/2021/08/unico-02.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="job-home">
+        <div class="job-home-content container-left">
+          <span class="font-p-2 bold-700">01</span>
+          <div class="job-flex-title">
+            <!--ao invés dessa tag I é uma imagem-->
+            <i class="ph ph-github-logo"></i>
+            <h1 class="font-t-5 bold-600">Nome do Projeto</h1>
+          </div>
+          <div class="tags-job-bg">
+            <ul class="tags-job font-p-1 bold-500">
+              <li>design</li>
+              <li>front-een</li>
+              <li>wordpress</li>
+            </ul>
+          </div>
+          <h2 class="font-p-5 bold-700">Descrição curta do titulo (1 linha)</h2>
+          <p class="font-p-4">Breve descrição do projeto, falando sobre o projeto, posso pegar referencia no site da insany nesta parte de como eles fizeram a descrição (tem estratégia) lorem inpusim lorem </p>
+          <div class="files-job">
+            <a href="" title="Ser direcionado para o site do projeto"><i class="ph ph-link"></i></a>
+            <a href="" title="Ser direcionado para repositório GitHub"><i class="ph ph-github-logo"></i></a>
+            <a href="" title="Ser direcionado para projeto em Designer no figma (UX/UI)"><i class="ph ph-figma-logo"></i></a>
+            <a href="" title="Ser direcionado para o Artigo pubicado sobre este projeto - Feito por Gabriel"><i class="ph ph-article"></i></a>
+          </div>
+        </div>
+        <div class="job-home-photo-bg">
+          <div class="job-home-photo">
+            <img src="https://insany.design/wp-content/uploads/2021/08/unico-01.jpg" alt="">
+            <img class="overlay-image" src="https://insany.design/wp-content/uploads/2021/08/unico-02.jpg" alt="">
+          </div>
+        </div>
+      </div>
+      <div class="job-home">
+        <div class="job-home-content container-left">
+          <span class="font-p-2 bold-700">01</span>
+          <div class="job-flex-title">
+            <!--ao invés dessa tag I é uma imagem-->
+            <i class="ph ph-github-logo"></i>
+            <h1 class="font-t-5 bold-600">Nome do Projeto</h1>
+          </div>
+          <div class="tags-job-bg">
+            <ul class="tags-job font-p-1 bold-500">
+              <li>design</li>
+              <li>front-een</li>
+              <li>wordpress</li>
+            </ul>
+          </div>
+          <h2 class="font-p-5 bold-700">Descrição curta do titulo (1 linha)</h2>
+          <p class="font-p-4">Breve descrição do projeto, falando sobre o projeto, posso pegar referencia no site da insany nesta parte de como eles fizeram a descrição (tem estratégia) lorem inpusim lorem </p>
+          <div class="files-job">
+            <a href="" title="Ser direcionado para o site do projeto"><i class="ph ph-link"></i></a>
+            <a href="" title="Ser direcionado para repositório GitHub"><i class="ph ph-github-logo"></i></a>
+            <a href="" title="Ser direcionado para projeto em Designer no figma (UX/UI)"><i class="ph ph-figma-logo"></i></a>
+            <a href="" title="Ser direcionado para o Artigo pubicado sobre este projeto - Feito por Gabriel"><i class="ph ph-article"></i></a>
+          </div>
+        </div>
+        <div class="job-home-photo-bg">
+          <div class="job-home-photo">
+            <img src="https://insany.design/wp-content/uploads/2021/08/unico-01.jpg" alt="">
+            <img class="overlay-image" src="https://insany.design/wp-content/uploads/2021/08/unico-02.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="space"></div>
+
+    <div class="marquee-container">
+      <div class="marquee-content font-t-4">
+        <div>
+          <i class="ph ph-lightning"></i>
+          <p>Criando Experiências Web</p>
+        </div>
+        <div>
+          <i class="ph ph-lightning"></i>
+          <p>Código e Criatividade</p>
+        </div>
+        <div>
+          <i class="ph ph-lightning"></i>
+          <p>Construindo um Web Melhor</p>
+        </div>
+        <div>
+          <i class="ph ph-lightning"></i>
+          <p>Pixels e Propósito</p>
+        </div>
+        <div>
+          <i class="ph ph-lightning"></i>
+          <p>Elevando Experiências do Usuário</p>
+        </div>
+        <div>
+          <i class="ph ph-lightning"></i>
+          <p>Codificando com Paixão</p>
+        </div>
+        <div>
+          <i class="ph ph-lightning"></i>
+          <p>Criando Delícia para o Usuário</p>
+        </div>
+        <div>
+          <i class="ph ph-lightning"></i>
+          <p>Inovação no Código</p>
+        </div>
+        <div>
+          <i class="ph ph-lightning"></i>
+          <p>Código, Crie, Inspire</p>
+        </div>
+      </div>
+    </div>
+
+    <section id="about2-home-bg">
+      <div class="about-home standard-grid">
+        <div class="about-gabriel">
+          <h1 class="font-t-7 container-left bold-600">Mais sobre<br>mim :&rpar;</h1>
+          <p class=" font-p-2">Trabalho apaixonadamente no desenvolvimento de experiências de usuário excepcionais, desde a concepção dos wireframes até a escrita do código, com o objetivo de criar produtos e serviços de alta qualidade.
+            <br><br>
+            <a href="" class="about2-link link-2 font-t-3">conheça mais <br> sobre mim<span id="arrow-right-2">➜</span></a>
+          </p>
+          <div class="gradiente-about bg-gradiente"></div>
+        </div>
+        <div class="about-job">
+          <img src="https://insany.design/wp-content/themes/theme_insany_design/img/double-circle.svg" alt="">
+          <a href="./about.html" class="link-2 font-t-3">conheça mais <br> sobre mim <span id="arrow-right-2">➜</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about2-home-bg">
+      <div class="about-home standard-grid">
+      </div>
+    </section>
+
+    <section class="experience-home-bg">
+      <div class="experience-home standard-grid">
+        <div class="experience-decoration-line">
+          <div class="titulo-exeriencie-home">
+            <h1 class="font-t-6">Experiência Profissional</h1>
+            <p class="font-p-3">Solucionando Problemas com Paixão</p>
+          </div>
+          <div class="line1">
+            <div class="line-cotent">
+              <img src="img/image-site/working-fullfit.png" alt="">
+              <h1 class="font-t-2">Full Fit Indústria Importação e Comércio</h1>
+              <h2 class="font-p-1">Administrativo <span class="font-p-1"> - 2 anos e 5 meses</apan>
+              </h2>
+              <p class="font-p-1">Com 52 anos de existência, a Full Fit é uma das maiores importadoras e distribuidoras de houseware no Brasil.</p>
+            </div>
+            <p class="time-lien-year font-p-1">Mar/2019 à Jun/2021</p>
+          </div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+          <div class="line4">
+            <div class="line-cotent">
+              <img src="img/image-site/woork-amazon.jpg" alt="">
+              <h1 class="font-t-2">Full Fit Indústria Importação e Comércio</h1>
+              <h2 class="font-p-1">Sistemas <span class="font-p-1"> - 1 anos e 5 meses</apan>
+              </h2>
+              <p class="font-p-1">A Luft Solutions, é especializada em soluções logísticas personalizadas, aproveitando os avanços tecnológicos e sistemas modernos de controle de estoque. Prestando serviços a grandes industrias do mercado (trabalhava para Amazon)</p>
+            </div>
+            <p class="time-lien-year font-p-1">Jan/2022 à Mai/2023</p>
+          </div>
+          <div class="line5">
+            <div class="line-cotent">
+              <img src="img/image-site/work-7lab.jpg" alt="">
+              <h1 class="font-t-2">7LAB - Agência de Marketing e Publicidade</h1>
+              <h2 class="font-p-1">Tecnologia da Informação - Depeloper Front-end
+              </h2>
+              <p class="font-p-1">A 7Lab Marketing é uma agência especializada em marketing e comunicação para empresas, focada em fortalecer a presença digital e tradicional das marcas, estabelecendo conexões sólidas com o público-alvo.</p>
+            </div>
+            <p class="time-lien-year font-p-1">Freelancer</p>
+          </div>
+          <div class="line6"></div>
+        </div>
+        <div class="experience-home-col2">
+          <img src="./img/image-site/perfil.jpg" alt="">
+          <p class="font-p-2">Pronto para explorar minha jornada no mundo da tecnologia? Clique no botão abaixo e mergulhe na minha experiência, onde transformei desafios em soluções.</p>
+          <a href="./experiencia.html" class="link-2 font-t-3">Explorar Minha Experiência<span id="arrow-right-2">➜</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="education-home-bg">
+      <div class="education-home standard-grid">
+        <div class="education-description-home">
+          <span class="decoration-education">
+            <img src="./img/icons/logo.png" alt="">
+          </span>
+          <span class="font-p-1  container-left">Educação 🔥</span>
+          <h1 class="font-t-6 bold-700  container-left">Educação e Certificações</h1>
+          <div class="education-slide-description">
+            <ul class="list font-p-3  container-left">
+              <li class="list-item active" onclick="showImage(1) ">.Origamid &nbsp;&nbsp;&nbsp;></li>
+              <li class="list-item dois" onclick="showImage(2)">.Rocketseat &nbsp;&nbsp;&nbsp;></li>
+              <li class="list-item" onclick="showImage(3)">.Faculdade &nbsp;&nbsp;&nbsp;></li>
+              <li class="list-item" onclick="showImage(4)">.Escola &nbsp;&nbsp;&nbsp;></li>
+              <li class="list-item" onclick="showImage(5)">.Aquuilo</li>
+            </ul>
+          </div>
+
+          <div class=" part-desckTop description-slide active">
+            <h2 class="font-t-4 bold-600 container-left title-description-education">Construindo Meu Caminho Front-End com Educação de Qualidade</h2>
+            <p class="font-p-2 container-left">Com uma sólida formação acadêmica em desenvolvimento web e um amor por criar experiências, estou pronto para contribuir com minhas habilidades e conhecimentos. Meu portfólio reflete minha dedicação à excelência e à inovação. Ao longo de minha pouca trajetória, trabalhei em uma variedade de projetos desafiadores que mostram minha capacidade de criar interfaces responsivas, interativas e visualmente atraentes para melhorar a experiência do usuário. Além disso, meu desejo constante de aprender e estar atualizado com as últimas tendências do setor me torna um membro valioso para qualquer equipe de desenvolvimento front-end 🫡</p>
+          </div>
+        </div>
+        <div class="education-certificate">
+          <div class="education-images">
+            <img class="education-image firt-image" src="./img/image-site/perfil.jpg" alt="Imagem 1">
+            <img class="education-image" src="./img/image-site/perfil.jpg" alt="Imagem 2">
+            <img class="education-image" src="./img/image-site/perfil.jpg" alt="Imagem 3">
+            <img class="education-image" src="./img/image-site/perfil.jpg" alt="Imagem 4">
+            <img class="education-image" src="./img/image-site/perfil.jpg" alt="Imagem 5">
+            <img class="education-image" src="./img/image-site/perfil.jpg" alt="Imagem 6">
+          </div>
+          <div class="education-slide2-description">
+            <div>
+              <button onclick="previousImage()"><img class="button-right" src="https://insany.design/wp-content/themes/theme_insany_design/img/arrow-slide.svg" alt=""></button>
+            </div>
+            <div>
+              <button onclick="nextImage()"><img src="https://insany.design/wp-content/themes/theme_insany_design/img/arrow-slide.svg" alt=""></button>
+            </div>
+          </div>
+          <div class="part-mobile  description-slide active">
+            <h2 class="font-t-4 bold-600 container-left title-description-education">Construindo Meu Caminho Front-End com Educação de Qualidade</h2>
+            <p class="font-p-2 container-left">Com uma sólida formação acadêmica em desenvolvimento web e um amor por criar experiências, estou pronto para contribuir com minhas habilidades e conhecimentos. Meu portfólio reflete minha dedicação à excelência e à inovação. Ao longo de minha pouca trajetória, trabalhei em uma variedade de projetos desafiadores que mostram minha capacidade de criar interfaces responsivas, interativas e visualmente atraentes para melhorar a experiência do usuário. Além disso, meu desejo constante de aprender e estar atualizado com as últimas tendências do setor me torna um membro valioso para qualquer equipe de desenvolvimento front-end 🫡</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-home-bg">
+      <div class="skills-home standard-grid">
+        <div class="skills-content-bg container-left">
+          <h1 class=" font-t-6 bold-700">Habilidades em Destaque</h1>
+          <div class="skills-content">
+            <div class="title-skills font-t-5 bold-700">
+              <i class="ph ph-file-html"></i>
+              <h2>HTML</h2>
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar bg-gradiente" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skills-content">
+            <div class="title-skills font-t-5 bold-700">
+              <i class="ph ph-file-css"></i>
+              <h2>CSS</h2>
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar bg-gradiente" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skills-content">
+            <div class="title-skills font-t-5 bold-700">
+              <i class="ph ph-file-js"></i>
+              <h2>JavaScript</h2>
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar bg-gradiente" style="width: 80%;"></div>
+            </div>
+          </div>
+          <div class="skills-content">
+            <div class="title-skills font-t-5 bold-700">
+              <img src="https://www.php.net/images/logos/new-php-logo.svg" alt="">
+              <h2>PHP</h2>
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar bg-gradiente" style="width: 60%;"></div>
+            </div>
+          </div>
+          <div class="skills-content">
+            <div class="title-skills font-t-5 bold-700">
+              <img src="https://seeklogo.com/images/W/wordpress-logo-9F351E1870-seeklogo.com.png" alt="">
+              <h2>WordPress</h2>
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar bg-gradiente" style="width: 90%;"></div>
+            </div>
+          </div>
+          <div class="skills-content">
+            <div class="title-skills font-t-5 bold-700">
+              <i class="ph ph-figma-logo"></i>
+              <h2>Figma</h2>
+            </div>
+            <div class="progress-container">
+              <div class="progress-bar bg-gradiente" style="width: 90%;"></div>
+            </div>
+          </div>
+          <a href="./habilidade.html" class="link font-t-3">VEJA TODOS <span id="arrow-right">➜</span></a>
+        </div>
+        <div class="skills-column2">
+          <p class="font-p-3">Quer conhecer todas as habilidades que possuo e as tecnologias em que sou especialista? Vá até a minha página de Habilidades para uma visão completa do que posso oferecer.</p>
+          <a href="./habilidade.html" class="link font-t-3">Explorar Minhas Habilidades<span id="arrow-right">➜</span></a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <footer class="footer-bg">
+    <div class="footer">
+      <div class="footer-content1">
+        <div class="footer-description-gabriel container-left">
+          <span class="font-p-1">Let's rock 🤘</span>
+          <h1 class="font-t-6 bold-600">Muito obrigado por ter chegado até aqui!</h1>
+          <p class="font-p-2">Um bom programador é um solucionador de problemas criativo e perseverante</p>
+          <a href="" class="link font-t-3">Conecte-te comigo <span id="arrow-right">➜</span></a>
+        </div>
+        <div class="footer-links">
+          <h2 class="font-t-5 bold-700">Link rápidos</h2>
+          <ul class="list-links-footer font-p-2">
+            <li>
+              <a href="#" class="link">Mapa do Site (tudo)</a>
+            </li>
+            <li>
+              <a href="./index.html" class="link">Home</a>
+            </li>
+            <li>
+              <a href="./about.html" class="link">O gabriel</a>
+            </li>
+            <li>
+              <a href="./experiencia.html" class="link">Experiências</a>
+            </li>
+            <li>
+              <a href="./projetos.html" class="link">Projetos</a>
+            </li>
+            <li>
+              <a href="./habilidade.html" class="link">Habilidades</a>
+            </li>
+            <li>
+              <a href="./contato.html" class="link">Contato</a>
+            </li>
+          </ul>
+        </div>
+        <div class="contact-footer-form">
+          <h2 class="font-t-5 bold-700">Contato rápido</h2>
+
+          <form action="https://formsubmit.co/gabrielsilva2@outlook.pt" method="POST" enctype=multipart/form-data class="form-footer">
+            <div class="form-group">
+              <label for="nome" class="font-t-2">Nome *</label>
+              <input type="text" id="nome" name="nome" required>
+            </div>
+            <div class="form-group">
+              <label for="email" class="font-t-2">Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="mensagem" class="font-t-2">Mensagem *</label>
+              <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+              <input type="file" name="attachment" accept="image/png, image/jpeg">
+            </div>
+            <div class="form-group">
+              <input type="submit" value="Enviar">
+              <input type="hidden" name="_captcha" value="false">
+              <input type="hidden" name="_next" value="http://127.0.0.1:3004/form.html">
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="footer-content2">
+        <p class="font-t-4 bold-600">© Gabriel Oliveira 2023</p>
+        <ul>
+          <a href="https://github.com/gabriel-sil" target="_blank"><i class="ph ph-github-logo"></i></a>
+          <a href="https://www.linkedin.com/in/gabriel1512/" target="_blank"><i class="ph ph-linkedin-logo"></i></a>
+          <a href="https://www.instagram.com/gabriel_oliveira10/" target="_blank"><i class="ph ph-instagram-logo"></i></a>
+          <a href="mailto:gabrielsilva2@outlook.pt" target="_blank"><i class="ph ph-envelope"></i></a>
+        </ul>
+        <button id="btnScrollToTop" class="font-p-1">Voltar ao Topo</button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
+  <script src="./js/main.js"></script>
+  <!---->
+  <script src="./js/header.js"></script>
+  <script src="./js/education.js"></script>
+</body>
+
+</html>
